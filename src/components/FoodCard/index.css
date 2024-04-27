@@ -1,0 +1,76 @@
+.food-item-card {
+  background-color: #ffffff;
+  border: 2px solid #f3f3f3;
+  box-shadow: 4px 0px 0px 16px #ffffff;
+  padding: 15px 50px 10px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.dish-name {
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+.currency-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.sar {
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 20px;
+  color: #000000;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.description {
+  color: #999999;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.button-container {
+  background-color: #6aa84f;
+  height: 40px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-around;
+  border-radius: 15px;
+}
+.minus {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 800;
+  background-color: transparent;
+  border: none;
+}
+.value {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.calories {
+  color: #ff9900;
+  font-size: 24px;
+  font-weight: 500;
+}
+.dish-image {
+  height: 50px;
+  width: 80px;
+}
+.item-details-container {
+  width: 60%;
+}
+.not-available{
+  color: #ff0000;
+  font-size: 20px;
+}
